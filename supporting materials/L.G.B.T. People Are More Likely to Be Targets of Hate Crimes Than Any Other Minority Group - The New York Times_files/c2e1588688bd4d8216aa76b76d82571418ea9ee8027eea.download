@@ -1,0 +1,25 @@
+window.optimizely.push({type:"load",data:{changes:[{"dependencies": [], "type": "custom_code", "id": "22464840-D272-4E39-938F-9AB884B6C8DA", "value": function($){var opt_console = window.NYToptly.opt_console;
+opt_console.log("-------------- replace login modal");
+
+var utils = window.optimizely.get('utils');
+
+utils.waitForElement('.login-modal-trigger').then(function () {
+
+    var loginButtons = document.querySelectorAll('.login-modal-trigger');
+    var authenticationLink = 'https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=nyt5&application=legacy_interactives&redirect_uri=' + encodeURIComponent(window.location.href);
+    var loginButtonsArray = Array.prototype.slice.call(loginButtons);
+    var className;
+    for (var i = 0; i < loginButtonsArray.length; i++) {
+        className = loginButtonsArray[i].className;
+        loginButtonsArray[i].className = className.replace('login-modal-trigger', '');
+        loginButtonsArray[i].addEventListener("click", function (e) { // jshint ignore:line
+            e.preventDefault();
+            e.stopPropagation();
+            window.location.href = authenticationLink;
+        });
+    }
+
+    opt_console.log("-------------- End replace login modal");
+
+});
+}}]}});

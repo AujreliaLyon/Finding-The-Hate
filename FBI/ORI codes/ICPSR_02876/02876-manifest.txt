@@ -1,0 +1,40 @@
+File Manifest for ICPSR 2876
+
+United States Department of Justice. Bureau of Justice Statistics. Law
+Enforcement Agency Identifiers Crosswalk [United States], 1996     .
+ICPSR02876-v1. Ann Arbor, MI: Inter-university Consortium for Political and
+Social Research [distributor], 2000. http://doi.org/10.3886/ICPSR02876.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02876-descriptioncitation.pdf       -       -         -       2014-12-15  -
+
+    02876-related_literature.txt        -       -         -       daily       -
+
+    02876-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Law Enforcement Agency Identifiers Crosswalk [United States], 1996
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02876-0001-Codebook.pdf             -       -         -       2001-09-19  2bf745f9ad4ce51246affb0089cf5855
+
+    02876-0001-Data.txt                 393     23,169    29      2000-03-14  450f154087e1ae3dddd6ee5694b426db
+
+    02876-0001-Setup.sas                -       -         -       2000-03-14  9f672665651691fdc9ed2b55cd404f65
+
+    02876-0001-Setup.sps                -       -         -       2000-03-14  43f8315ccefaa1a969dea3042b79fbea
+
+
+Version History
+
+2001-09-20 A related publication listing was added to the codebook and
+study description.

@@ -1,0 +1,134 @@
+.documentEditable{ width: 940px; }
+#ucr-main { }
+  #ucr-main h1 { margin: 0; padding: 0 }
+  #ucr-main span.visualClear { display:block }
+  #ucr-main h3{ color: #010101; font-size: 14px; margin-bottom: 2px; }
+  #ucr-main h2{ font-size: 12px; margin-bottom: 2px; padding: 3px; }
+  #ucr-main h1 { line-height: 38px; }
+  #ucr-main p { font-size: 12px; }
+  #ucr-main h1 a, #ucr-main h2 a, #ucr-main h3 a { color: #1B528E !important; }
+
+  #ucr-main #maincolumn { width: 740px; float: left; background: transparent none; margin: 0; padding: 0;}
+  #ucr-main #top-navigation { border-bottom: none; margin: 0 0 0 0; padding: 20px 5px 20px 5px;}
+    #ucr-main #top-navigation h2{ border:none; font-size: 25px; line-height: 20px; margin: 0; }
+      #ucr-main #top-navigation h2 a{ color: #1B528E; }
+      #ucr-main #top-navigation h2 span{ font-size : 12px;}
+  #ucr-main #maincolumn #primary-items { border-bottom: 1px solid white; color: #010101; margin: 0; padding: 0; }
+    #ucr-main #maincolumn #primary-items li{ float: left; width: 145px; padding: 0; height: 49px; list-style-type: none; 
+                                        border-bottom: 4px solid #02529D; list-style : none; margin-right: 3px;
+                                        background-color: #168CCD; }
+    #ucr-main #maincolumn.threeacross #primary-items li { width: 184px; background-color: #168CCD; }
+    #ucr-main #maincolumn #primary-items ul { margin: 0; padding: 0;}
+    #ucr-main #maincolumn #primary-items li.first {width: 145px; border-left: none;}
+    #ucr-main #maincolumn #primary-items li.last { margin-right: 0}
+      #ucr-main #maincolumn #primary-items li a{ display: block; width: 128px; height: 39px; padding: 8px 10px 0 10px; font-size: 14px;
+                                                 font-weight: bold; color: white; text-decoration: none; line-height: 17px;}
+      #ucr-main #maincolumn #primary-items li a:hover{ color: #feeC63; text-decoration : underline;}
+      #ucr-main #maincolumn.threeacross #primary-items li a { width: 164px; height: 26px; }
+      #ucr-main #maincolumn.threeacross #primary-items li#ok a { width: 347px; }
+    #ucr-main #maincolumn #primary-items li#ok{ background-color: #168CCD; width: 367px; }
+    #ucr-main #maincolumn #sub-items{margin-bottom: 10px; margin-top: 2px;}
+    #ucr-main #maincolumn #sub-items .subitem { float: left; width: 125px; height: 140px; font-size: 12px; padding: 10px 10px 20px 10px;
+                                                margin-right: 3px; background: #F0ECD4; color: #010101;}
+    #ucr-main #maincolumn #sub-items .subitemlast { background: none repeat scroll 0 0 #F0ECD4; color: #010101; float: left; font-size: 12px;
+                                               height: 140px; margin-right: 0; padding: 10px 10px 20px; width: 125px; }
+    #ucr-main #maincolumn.threeacross #sub-items .subitem, #ucr-main #maincolumn.threeacross #sub-items .subitemlast { width: 164px; }
+    #ucr-main #maincolumn.threeacross #sub-items .okitem { width: 347px; }
+
+  #ucr-main #additional_data { background: none repeat scroll 0 0 #FFFFFF; font-size: 12px; margin: 0; width: 741px;}
+    #ucr-main #additional_data h2 { background: none repeat scroll 0 0 #F0ECD4; color: #1B528E; font-size: 18px; padding: 10px; }
+    #ucr-main #additional_data .navbox { float: left; margin: 0 0 5px; padding: 10px; width: 340px; }
+    #ucr-main #additional_data h3 { margin-bottom: 7px; }
+    #ucr-main #additional_data p { margin-left: 10px; }
+    #ucr-main #additional_data a.data { background: url("data_caret.gif") no-repeat scroll 0 3px transparent; padding: 0 10px; }
+    #ucr-main #additional_data h3 a{ font-size: 16px; font-style: italic; }
+
+  #ucr-main #quick_finds { background: url("bkg-quick_finds.gif") repeat-y scroll 148px 0 transparent;
+                           border-top: 1px solid #C4C4C4; margin: 0; width: 736px; min-height:100px; }
+  #ucr-main #quick_finds h2 { background: none repeat scroll 0 0 #FFFFFF; color: #1B528E; font-size: 16px; margin: 0; padding: 10px;}
+  #ucr-main #quick_finds .qfind_item { color: #010101; float: left; font-size: 12px; padding: 0; margin: 10px; width: 128px;}
+  #ucr-main #quick_finds .qfind_item.last { background: none repeat scroll 0 0 transparent; }
+  #ucr-main #quick_finds .qfind_item a { padding-right: 3px; text-decoration: none; }
+  #ucr-main #quick_finds .qfind_item a:hover { color: #289FE4; }
+
+  #ucr-main #main-area { background: none repeat scroll 0 0 #FFFFFF; border: 0 solid #A4A4A4; color: #4A4949;
+                         margin: 0; padding: 0; width: 741px;}
+
+  #ucr-main #main-area p{ font-size: 12px; margin: 10px 0 10px 12px; }
+  #ucr-main #main-area p a.data{ background: url("data_caret.gif") no-repeat scroll 0 3px transparent;
+                                 color: #1B528E; font-size: 16px; font-weight: bold; padding: 0 10px; }
+
+#ucr-right {  background: none repeat scroll 0 0 #DED8B8; float: left; height: 581px; margin: 6px 0 0 5px; padding: 10px 15px 0; width: 163px;}
+
+/* Navigation Styles */
+#ucr-navigation {  background: none repeat scroll 0 0 #C6C2A8; border-bottom: 4px solid white; font-size: 12px; height: 41px;
+                   padding: 0; width: 938px; }
+  #ucr-navigation ul{ margin: 0; padding: 0;}
+  #ucr-navigation li{ float: left; font-size: 12px; border-left: 1px solid white;
+                      font-weight: bold; height: 30px; list-style-type: none; padding: 11px 11px 0; list-style: none; }
+  #ucr-navigation li.first { background: none repeat scroll 0 0 transparent; padding-left: 6px; padding-right: 9px; border-left:none; }
+  #ucr-navigation li.selected {  background: none repeat scroll 0 0 #EAE5C4; }
+  #ucr-navigation li.last { padding-left: 9px; padding-right: 6px; }
+  #ucr-navigation a {color: #FFFFFF; text-decoration: underline; }
+  #ucr-navigation a:hover {color: #1B528E; } 
+
+/* Stacked Styles */
+#ucr-main #page_content { font-size: 12px; line-height: 20px; padding: 0; width: 938px; min-height: 600px; 
+                          background: url("page_content.gif") repeat-x scroll 0 0 #FFFFFF; color: #4A4949; }
+  #ucr-main #page_content p { margin-bottom: 10px; padding-right: 20px; }
+  #ucr-main #page_content #col_1 { float: left; width: 528px; }
+    #ucr-main #page_content #col_1 #content_main { color: #4A4949; float: left; padding: 10px 20px 10px; width: 515px;}
+    #ucr-main #page_content #col_1 #content_main h1, #ucr-main #page_content h1.top-header { color: #1B528E; font-size: 36px; margin-bottom: 40px; }
+    #ucr-main #page_content h1.top-header{line-height: 32px;}
+    #ucr-main #page_content .header-container { padding: 10px 20px 0 10px; }
+    #ucr-main #page_content .header-container #nav_return { height: 15px; }
+    #ucr-main #page_content #col_1 #content_sub { border: 1px solid #E1E1E1; float: left; line-height: 20px; margin: 5px 0 10px 20px;
+                                                  padding: 0 12px 7px; width: 445px; }
+      #ucr-main #page_content #col_1 #content_sub h2 { background: none repeat scroll 0 0 #FAF9ED; border-bottom: 1px dashed #E1E1E1;
+                                                       color: #1B528E; font-size: 16px; line-height: 18px; margin: 0 -12px 12px; padding: 15px 12px; }
+      #ucr-main #page_content #col_1 #content_sub p { margin: 0 0 5px; margin-bottom: 10px; padding-right: 20px; }
+  #ucr-main #page_content #col_2 { height: 100%; color: #FFFFFF; float: left; padding: 32px 0 0; width: 410px; }
+    #ucr-main #page_content #col_2 p { line-height: 16px; margin: 10px 0 0 15px; }
+    #ucr-main #page_content #col_2 #ab_wrapper { background: url("ab_wrapper.gif") repeat-y scroll 203px 0 #FFFFFF; border: 1px solid #7D7B7B;
+                                                 color: #4A4949; margin-top: 0; min-height: 500px; }
+      #ucr-main #page_content #col_2 #ab_wrapper #col_a { float: left; padding-bottom: 15px; width: 200px; }
+      #ucr-main #page_content #col_2 #ab_wrapper .col_header, 
+      #ucr-main #page_content #col_2 #ab_wrapper .col_header2 { margin-left: -1px; border-bottom: 4px solid #02529D; color: #FFFFFF; font-size: 16px; 
+                                                                font-weight: bold; height: 43px; line-height: 20px; margin: -1px 0 0; padding: 6px 10px 0; 
+                                                                position: relative; width: 183px; border-top: 1px solid #7D7B7B; background-color: #168CCD; }
+      #ucr-main #page_content #col_2 #ab_wrapper .col_header2 { margin-left: -1px; text-decoration: none; width: 184px; margin-top: 5px; }
+      #ucr-main #page_content #col_2 #ab_wrapper #col_b { height: 100%; float: left; padding-bottom: 15px; width: 199px; }
+        #ucr-main #page_content #col_2 #ab_wrapper #col_b .col_header { margin-left: 4px; margin-right: -5px; width: 184px;}
+    #ucr-main #page_content #col_2 #ab_wrapper li { background: url("arrow_col_a.gif") no-repeat scroll 0 3px transparent; list-style: none; list-style-type: none;
+                                                    padding-left: 10px; }
+    #ucr-main #page_content #col_2 #ab_wrapper ul { margin-left : 5px }
+
+#ucr-main .supporting_info { font-size: 12px; line-height: 20px; padding: 10px 0 15px 5px; width: 700px; }
+  #ucr-main .supporting_info h1 { color: #4A4949; font-size: 16px; line-height: 16px; margin: 0 0 0 10px !important; padding: 0; }
+  #ucr-main .supporting_info p { margin: 10px; padding: 0; }
+  #ucr-main .supporting_info a { color: #1B528E !important; }
+
+/* 1 Column overrides */
+#ucr-main.onecolumn #page_content #col_2 { width: 205px }
+#ucr-main #page_content #col_1 { width: 728px }
+#ucr-main #page_content #col_1 #content_main { width: 700px }
+
+/* various */
+#ucr-main #page_content #dataheader p { margin-bottom: 0}
+#ucr-main .secardarywrapper ul, #ucr-main .secondarywrapper ul li{ list-style: none; list-style-type: none; list-style-image: none; }
+#ucr-main .secardarywrapper ul{ float: left; padding-left: 30px; }
+#ucr-main .secardarywrapper ul li{padding: 2px}
+
+#admin-actions{ border: 1px dotted gray; padding: 5px; margin: 5px; }
+
+
+#ucr-main h2.blue-header{
+  color: #0E2544;
+  padding-left:0;
+}
+
+#ucr-main h2.tablesubguide{
+  font-size: 18px;
+  color:#D09028;
+  border:none;
+}

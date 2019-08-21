@@ -1,0 +1,59 @@
+var bk_results = {
+ "campaigns": [
+  {
+    "campaign": 209855,
+    "timestamp": 1566349736,
+    "categories": [
+    {
+     "categoryID": 408098,
+     "timestamp": 1566349736
+    },
+    {
+     "categoryID": 997862,
+     "timestamp": 1566349684
+    }
+    ]
+  },
+  {
+    "campaign": 237534,
+    "seg_id": "10202010046",
+    "timestamp": 1566349736,
+    "categories": [
+    {
+     "categoryID": 1021885,
+     "timestamp": 1566349684
+    }
+    ]
+  },
+  {
+    "campaign": 221243,
+    "timestamp": 1566349736,
+    "categories": [
+    {
+     "categoryID": 997862,
+     "timestamp": 1566349684
+    }
+    ]
+  },
+  {
+    "campaign": 221330,
+    "timestamp": 1566349736,
+    "categories": [
+    {
+     "categoryID": 1021885,
+     "timestamp": 1566349684
+    }
+    ]
+  },
+  {
+    "campaign": 221329,
+    "timestamp": 1566349736,
+    "categories": [
+    {
+     "categoryID": 1024818,
+     "timestamp": 1566349684
+    }
+    ]
+  }
+ ]
+};

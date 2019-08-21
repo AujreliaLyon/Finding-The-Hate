@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "MARYSVILLE",
+      'continent': "NA",
+      'country': "US",
+      'region': "WA"
+    },
+    'ip':"73.225.84.121"
+  }]);
+})
+//
+()
+
+;
