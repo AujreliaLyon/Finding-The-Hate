@@ -7,10 +7,10 @@
 *see graph in presentation at https://docs.google.com/presentation/d/1MMiMMtazIhAp9KpM___sF1qrBpwlGy7XJm07uDeiO3o/edit#slide=id.g5d1e1448a8_0_13
 
 # jupyter notebooks - order of execution
-- EDA_File_Collation.ipynb
-- EDA_post_processing.ipynb
-- EDA_Extract_focus_groups.ipynb
-- Analysis.ipynb 
+- 001_EDA_File_Collation.ipynb
+- 002_EDA_post_processing.ipynb
+- 003_EDA_Extract_focus_groups.ipynb
+- 004_Analysis.ipynb 
 
 # Limitations of this Study
 This Initial Analysis suffers from some issues which should be called out up front
@@ -43,7 +43,7 @@ The BJS reports that between 2004-15 as many as 60% of crimes were not reported 
 ### AGNAME Overflow
  - in 361770 out of 504360 rows, a portion of the AGNAME column was shifted into the neighboring CFIPS column, pushing all columns after it to the right.
  - Fortunately AGNAME is a text column and CFIPS is numeric which made it easily detectable.
--  code was created to check if the contents of a CFIPS cell could be converted to int data; if not it was assumed to be text and belong to the AGNAME column. The erroneous contents were appended to the AGNAME column with a seperating ",", and the cells to the right of CFIPS1 were shifted left by one cell, or area/city population with the general purpose function "EDA_File_Collation.shift_cell_contents"
+-  code was created to check if the contents of a CFIPS cell could be converted to int data; if not it was assumed to be text and belong to the AGNAME column. The erroneous contents were appended to the AGNAME column with a seperating ",", and the cells to the right of CFIPS1 were shifted left by one cell, or area/city population with the general purpose function "001_EDA_File_Collation.shift_cell_contents"
 
 ### Translating FBI bias code to english description
 - "./NACJD/Hate Crime Type by Code.csv" contains the code/description information. Basically this was a relational data merge.
