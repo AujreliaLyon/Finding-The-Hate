@@ -41,4 +41,7 @@ The BJS reports that between 2004-15 as many as 60% of crimes were not reported 
 -  code was created to check if the contents of a CFIPS cell could be converted to int data; if not it was assumed to be text and belong to the AGNAME column. The erroneous contents were appended to the AGNAME column with a seperating ",", and the cells to the right of CFIPS1 were shifted left by one cell, or area/city population with the general purpose function "EDA_File_Collation.shift_cell_contents"
 
 ### Translating FBI bias code to english description
-- "./NACJD/Hate Crime Type by Code.csv" contains the code/description information. Basically this was a reltional data merge.
+- "./NACJD/Hate Crime Type by Code.csv" contains the code/description information. Basically this was a relational data merge.
+
+### Retrieving city/state lat and long
+- these data were retrieved from Google maps, with is a paid service. If you want to run the full process for this you will need to uncomment the section that actually does the pulls from their API, get your own account and access code, comment out the load of the previously stored data (provided so that the actual data gets would not have to be run every time.
