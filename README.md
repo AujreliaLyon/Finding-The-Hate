@@ -6,8 +6,13 @@
 
 *see graph in presentation at https://docs.google.com/presentation/d/1MMiMMtazIhAp9KpM___sF1qrBpwlGy7XJm07uDeiO3o/edit#slide=id.g5d1e1448a8_0_13
 
+# jupyter notebooks - order of execution
+- EDA_File_Collation.ipynb
+- EDA_post_processing.ipynb
+- EDA_Extract_focus_groups.ipynb
+- Analysis.ipynb 
 
-## Limitations of this Study
+# Limitations of this Study
 This Initial Analysis suffers from some issues which should be called out up front
 - There are two government agencies that gather hate crime data, using very different methodologies to arrive at very different conclusions : the Federal Bureau of Investigation (FBI) and the Bureau of Justice Statistics(BJS) . 
 - This study employs the FBI data but I highly recommend that a follow up study be conducted using the BJS data; somewhere between the two we will find the most accurate picture.
@@ -33,7 +38,7 @@ The BJS reports that between 2004-15 as many as 60% of crimes were not reported 
 
 
 # EDA
- - These data were transmitted in a tab seperated files, which is in and of itself not a problem except that the tabs seem to have *occasionally, but inconsistently* been added to pad out fixed fields widths so data were often shifted to the left or right.
+ - The source data were transmitted in a tab seperated files, which is in and of itself not a problem except that the tabs seem to have *occasionally, but inconsistently* been added to pad out fixed fields widths so data were often shifted to the left or right.
 
 ### AGNAME Overflow
  - in 361770 out of 504360 rows, a portion of the AGNAME column was shifted into the neighboring CFIPS column, pushing all columns after it to the right.
